@@ -10,7 +10,7 @@ CONFIGURE = ./configure
 RM = rm
 
 TOP = $(shell pwd)
-SUBDIRS = cr tightvnc tightvnc/Xvnc
+SUBDIRS = tightvnc tightvnc/Xvnc
 
 DOM0_BIN = vncviewer glstub stub-daemon
 DOMU_BIN = Xvnc
