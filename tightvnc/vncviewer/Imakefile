@@ -24,7 +24,7 @@ JPEG_LIB = /usr/local/lib/libjpeg.a
 #else
 JPEG_LIB = -L/usr/local/lib -ljpeg
 #endif
-VMGLSTUB_LIB = ../usr/local/lib/libvmglstubdaemon.a -lpthread
+VMGLSTUB_LIB = /usr/local/lib/libvmglstubdaemon.a -lpthread
 
 DEPLIBS = XawClientDepLibs $(VNCAUTH_LIB)
 LOCAL_LIBRARIES = XawClientLibs $(VNCAUTH_LIB) $(ZLIB_LIB) $(JPEG_LIB) $(VMGLSTUB_LIB)
